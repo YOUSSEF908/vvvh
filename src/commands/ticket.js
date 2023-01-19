@@ -96,6 +96,13 @@ module.exports = {
                             .setDescription("user")
                             .setRequired(true);                                         
                 })
+            .addChannelOption(option => {
+                return option
+                    .setName("channel")
+                    .setDescription("Text channel where the ticket message will be sent.")
+                    .addChannelTypes(ChannelType.GuildText)        
+                    .setRequired(true);
+    })            
         })        
     }),
     run: async (interaction, client) => {
