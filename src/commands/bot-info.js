@@ -32,10 +32,10 @@ module.exports = {
         .setThumbnail(client.user.avatarURL({dynamic:true}))
         .setAuthor({ name: `${client.user.username} | Bot Info`, iconURL: client.user.avatarURL() })
         .addFields(
-            { name: '<:icon_bot:1055044660961218560> System', value: `> Uptime: ${uptime2}\n> Ram: \`\`${ram}\`\`\n> CPU: \`\`${cpu}\`\`\n> Total Command Using: ${totalCommand}\n` },
-            { name: '<:icon_link:1055044662525706330> General', value: `> Servers: \`\`${servers}\`\`\n> Users: \`\`${users}\`\`` },       
-		    { name: '<:icon_highconnection:1055044656813068348> Latecy', value: `> Latecy: \`\`${latecy}\`\`\n> API Latecy: \`\`${api_latecy}\`\`` },
-            { name: '<:icon_info:1055044658998292521> Versions', value: `> DiscordJS : \`\`${version}\`\`\n> NodeJS : \`\`${process.version}\`\`\n> Mongoose: \`\`${mongoose}\`\`` }
+            { name: ' System', value: `> Uptime: ${uptime2}\n> Ram: \`\`${ram}\`\`\n> CPU: \`\`${cpu}\`\`\n> Total Command Using: ${totalCommand}\n` },
+            { name: ' General', value: `> Servers: \`\`${servers}\`\`\n> Users: \`\`${users}\`\`` },       
+		    { name: ' Latecy', value: `> Latecy: \`\`${latecy}\`\`\n> API Latecy: \`\`${api_latecy}\`\`` },
+            { name: ' Versions', value: `> DiscordJS : \`\`${version}\`\`\n> NodeJS : \`\`${process.version}\`\`\n> Mongoose: \`\`${mongoose}\`\`` }
         ) 
         
         await interaction.reply({ embeds: [embed] })       
