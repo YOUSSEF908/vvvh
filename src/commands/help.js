@@ -36,8 +36,8 @@ module.exports = {
         .setDescription(`• If you have a problem that you cannot solve, you can come to my [support server](${config.link.supportServer}).`)
         .addFields(
              { name: "<:icons_new1A:1054323233748426813><:icons_new2A:1054323234981552148> Updates", value: "> undefined"},
-             { name: "<:icon_bot:1055044660961218560> Bot Information", value: `> Latecy: ${latecy}\n> Guild Count: ${guildCount}\n> User Count: ${userCount}` },
-             { name: "<:icon_info:1055044658998292521> Tip", value: `> <:icon_home:1055583081358184538>: Home Button\n> <:icon_shop:1055574036991725650>: Ticket Button\n> <:icon_info:1055044658998292521>: Information Button` }                       
+             { name: " Bot Information", value: `> Latecy: ${latecy}\n> Guild Count: ${guildCount}\n> User Count: ${userCount}` },
+             { name: " Tip", value: `> <:icon_home:1055583081358184538>: Home Button\n> <:icon_shop:1055574036991725650>: Ticket Button\n> <:icon_info:1055044658998292521>: Information Button` }                       
          )
         
         const ticketEmbed = new EmbedBuilder()
