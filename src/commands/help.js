@@ -45,8 +45,8 @@ module.exports = {
         .setColor(config.embed.color)
         .setDescription(`• If you have a problem that you cannot solve, you can come to my [support server](${config.link.supportServer}).`)
         .addFields(
-             { name: "<:icons_new1A:1054323233748426813><:icons_new2A:1054323234981552148> Updates", value: "> undefined"},
-             { name: "<:icon_integration:1054325885387415594> Ticket Commands", value: "> /ticket setup\n> /ticket user add\n> /ticket user remove" },
+             { name: " Updates", value: "> update every weekend "},
+             { name: " Ticket Commands", value: "> /ticket setup\n> /ticket user add\n> /ticket user remove" },
          )
         
         const infoEmbed = new EmbedBuilder()
@@ -54,8 +54,8 @@ module.exports = {
         .setColor(config.embed.color)
         .setDescription(`• If you have a problem that you cannot solve, you can come to my [support server](${config.link.supportServer}).`)
         .addFields(
-             { name: "<:icons_new1A:1054323233748426813><:icons_new2A:1054323234981552148> Updates", value: "> undefined"},
-             { name: "<:icon_integration:1054325885387415594> Info Commands", value: "> /bot-info\n> /help\n> /invite\n> /ping\n> /support\n> /user-info" },
+             { name: "<:icons_new1A:1054323233748426813><:icons_new2A:1054323234981552148> Updates", value: "> update every weekend"},
+             { name: " Info Commands", value: "> /bot-info\n> /help\n> /invite\n> /ping\n> /support\n> /user-info" },
          )       
             
        const message = await interaction.reply({ embeds: [embed], components: [row], fetchReply: true })
