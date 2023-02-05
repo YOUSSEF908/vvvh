@@ -3,7 +3,7 @@ module.exports = {
     mongoDb: "mongodb+srv://shika:01155343499Aa@cluster0.f11tpfg.mongodb.net/spire", 
     clientId: "1071804169540878387",
     link: {
-        supportServer: "SUPPORT SERVER URL",
+        supportServer: "https://discord.gg/249FcEEE93",
         inviteUrl: "https://discord.com/api/oauth2/authorize?client_id=1071804169540878387&permissions=3288647744&scope=bot%20applications.commands",
         github: ""
     },
