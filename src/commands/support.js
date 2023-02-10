@@ -3,7 +3,7 @@ const config = require("../config")
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("rules")
+    .setName("laws")
     .setDescription("Show Enterprise support server."),
     run: async (interaction, client) => {
         
