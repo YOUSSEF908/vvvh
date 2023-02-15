@@ -9,19 +9,10 @@ module.exports = {
         
         const embed = new EmbedBuilder()
         .setColor(config.embed.color)
-        .setDescription(`** ♾️ Ticketing Rules**
-
- > 1 - +18 / Do not share NSFW content.
-  > 2 - Avoid matters involving harm, damage or death.
-  > 3 - Do not discriminate.
-  > 4 - Do not use channels unnecessarily.
-  > 5 - Do not use spam, floods, unnecessary spoilers or too many capital letters.
-  > 6 - Avoid fights, everyone will be punished, whatever the reason.
-  > 7 - Do not use profanity for anyone.
- > 8 - Do not tag roles, members or senior people for no reason.
-  > 9 - Do not share anyone's personal information in public.
-
- **Everyone who joins the server is deemed to have read and accepted the rules!**`)
+        .setDescription(`*Get started* using the bot by [inviting](https://discord.com/oauth2/authorize?client_id=1071804169540878387&permissions=8&scope=bot%20applications.commands) the bot to your server.
+- You can use the `/ticket setup` to easily config the bot.
+- if you have any bug or technical issues you can <#1071877395428167700> us.
+- If you have any difficulties while using our bot ask the support for help.`)
         await interaction.reply({ content: '', embeds: [embed]})       
     }
 }
