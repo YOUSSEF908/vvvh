@@ -4,7 +4,7 @@ const config = require("../config")
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("started")
-    .setDescription("Show Enterprise support server."),
+    .setDescription("Show ♾️ get started ."),
     run: async (interaction, client) => {
         
         const embed = new EmbedBuilder()
