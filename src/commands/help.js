@@ -4,7 +4,7 @@ const config = require("../config")
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("help")
-    .setDescription("Shows the Enterprise commands."),
+    .setDescription("Shows the ♾️ Ticketing commands."),
     run: async (interaction, client) => {
           
         const latecy = `${Date.now() - interaction.createdTimestamp}ms`;
@@ -15,18 +15,18 @@ module.exports = {
 			.addComponents(
                new ButtonBuilder()
 					.setCustomId('helpMenuHome')
-					.setEmoji('<:icon_home:1055583081358184538>')
+					.setEmoji('')
                     .setDisabled(true)
 					.setStyle(ButtonStyle.Secondary),  
                 
 				new ButtonBuilder()
 					.setCustomId('helpMenuTicket')
-					.setEmoji('<:icon_shop:1055574036991725650>')
+					.setEmoji('')
 					.setStyle(ButtonStyle.Secondary),
               
  				new ButtonBuilder()
 					.setCustomId('helpMenuInfo')
-					.setEmoji('<:icon_info:1055044658998292521>')
+					.setEmoji('')
 					.setStyle(ButtonStyle.Secondary),             
 			);
            
@@ -35,9 +35,9 @@ module.exports = {
         .setColor(config.embed.color)
         .setDescription(`• If you have a problem that you cannot solve, you can come to my [support server](${config.link.supportServer}).`)
         .addFields(
-             { name: "<:icons_new1A:1054323233748426813><:icons_new2A:1054323234981552148> Updates", value: "> undefined"},
+             { name: " Updates", value: "> undefined"},
              { name: " Bot Information", value: `> Latecy: ${latecy}\n> Guild Count: ${guildCount}\n> User Count: ${userCount}` },
-             { name: " Tip", value: `> <:icon_home:1055583081358184538>: Home Button\n> <:icon_shop:1055574036991725650>: Ticket Button\n> <:icon_info:1055044658998292521>: Information Button` }                       
+             { name: " Tip", value: `>  Home Button\n> : Ticket Button\n> : Information Button` }                       
          )
         
         const ticketEmbed = new EmbedBuilder()
