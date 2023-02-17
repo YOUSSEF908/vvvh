@@ -15,23 +15,23 @@ module.exports = {
 			.addComponents(
                new ButtonBuilder()
 					.setCustomId('helpMenuHome')
-					.setEmoji('')
+					.setEmoji('<:emoji_47:1076079242883907634>')
                     .setDisabled(true)
 					.setStyle(ButtonStyle.Secondary),  
                 
 				new ButtonBuilder()
 					.setCustomId('helpMenuTicket')
-					.setEmoji('')
+					.setEmoji('<:emoji_48:1076131503572013086>')
 					.setStyle(ButtonStyle.Secondary),
               
  				new ButtonBuilder()
 					.setCustomId('helpMenuInfo')
-					.setEmoji('')
+					.setEmoji('<:emoji_46:1076079215620919296>')
 					.setStyle(ButtonStyle.Secondary),             
 			);
            
         const embed = new EmbedBuilder()
-        .setTitle("Ticketprise Help Menu")
+        .setTitle("♾️ Ticketing Help Menu")
         .setColor(config.embed.color)
         .setDescription(`• If you have a problem that you cannot solve, you can come to my [support server](${config.link.supportServer}).`)
         .addFields(
@@ -41,7 +41,7 @@ module.exports = {
          )
         
         const ticketEmbed = new EmbedBuilder()
-        .setTitle("Ticketprise Help Menu")
+        .setTitle("♾️ Ticketing Help Menu")
         .setColor(config.embed.color)
         .setDescription(`• If you have a problem that you cannot solve, you can come to my [support server](${config.link.supportServer}).`)
         .addFields(
@@ -50,7 +50,7 @@ module.exports = {
          )
         
         const infoEmbed = new EmbedBuilder()
-        .setTitle("Ticketprise Help Menu")
+        .setTitle("♾️ Ticketing Help Menu")
         .setColor(config.embed.color)
         .setDescription(`• If you have a problem that you cannot solve, you can come to my [support server](${config.link.supportServer}).`)
         .addFields(
